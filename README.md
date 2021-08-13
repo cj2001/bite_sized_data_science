@@ -8,5 +8,6 @@ All notebooks can be found in `notebooks/`.
 
 ## Videos
 [Part 1: Connect from Jupyter to a Neo4j Sandbox](https://dev.neo4j.com/bites_part1)
+
 [Part 2: Using the py2neo Python Driver](https://dev.neo4j.com/bites_part2)
 

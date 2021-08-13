@@ -4,5 +4,8 @@
 #### Twitter: @CJLovesData1
 #### Last updated: August 13, 2021
 
+All notebooks can be found in `notebooks/`.
+
 ## Videos
 [Part 1: Connect from Jupyter to a Neo4j Sandbox](dev.neo4j.com/bites_part1)
+

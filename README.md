@@ -14,3 +14,5 @@ All notebooks can be found in `notebooks/`.
 
 [Part 2: Using the py2neo Python Driver](https://dev.neo4j.com/bites_part2)
 
+[Part 3: Using the Neo4j Python Driver](https://dev.neo4j.com/bites_part3)
+

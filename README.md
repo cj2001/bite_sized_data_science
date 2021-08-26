@@ -22,3 +22,4 @@ All notebooks can be found in `notebooks/`.
 ## References
 
 - [The Neo4j Cheat Sheet and Quick Reference](https://dev.neo4j.com/neo4j_cheatsheet)
+- [Neo4j Cypher Reference Card](https://neo4j.com/docs/cypher-refcard/current/)

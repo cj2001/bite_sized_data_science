@@ -6,6 +6,9 @@
 
 All notebooks can be found in `notebooks/`.
 
+### Note:
+The notebooks in this repository are not meant to be stand-alone and thus are not commented.  They go with the videos.  So you are encouraged to watch the videos and then consult the notebooks should you will to look at the actual code in depth.
+
 ## Videos
 
 [Complete YouTube playlist of full series](https://dev.neo4j.com/bite_sized_playlist)

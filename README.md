@@ -2,9 +2,10 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: September 2, 2021
+#### Last updated: September 10, 2021
 
 All notebooks can be found in `notebooks/`.
+Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
 
 ### Note:
 The notebooks in this repository are not meant to be stand-alone and thus are not commented.  They go with the videos.  So you are encouraged to watch the videos and then consult the notebooks should you will to look at the actual code in depth.
@@ -24,6 +25,9 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 
 [Part 5: Populating the Database from Pandas](https://dev.neo4j.com/bites_part5)
   - This video refers to a YouTube video on how to create efficient Cypher queries, which is linked in the references below.
+
+[Part 6: Populating the Database with LOAD CSV](https://dev.neo4j.com/bites_part6)
+  - This video references [this GitHub repo](https://github.com/mathbeveridge/gameofthrones) that has the data used in this part.
 
 ## References
 

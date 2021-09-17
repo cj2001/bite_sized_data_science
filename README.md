@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: September 10, 2021
+#### Last updated: September 17, 2021
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -12,7 +12,7 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 
 ## Videos
 
-[Complete YouTube playlist of full series](https://dev.neo4j.com/bite_sized_playlist)
+### [Complete YouTube playlist of full series](https://dev.neo4j.com/bite_sized_playlist)
 
 [Part 1: Connect from Jupyter to a Neo4j Sandbox](https://dev.neo4j.com/bites_part1)
 
@@ -28,6 +28,10 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 
 [Part 6: Populating the Database with LOAD CSV](https://dev.neo4j.com/bites_part6)
   - This video references [this GitHub repo](https://github.com/mathbeveridge/gameofthrones) that has the data used in this part.
+
+[Part 7: Populating the Database with the neo4j-admin tool](https://dev.neo4j.com/bites_part7)
+  - This video works from the command line using Docker.  The shell commands are provided in GitHub gists, which can be found [here](https://gist.github.com/cj2001/9321ff16672921e1c197b67336f97f19).
+  - The data for this part can be found in `data/` (the files are `got-s1-nodes.csv` and `got-s1-edges.csv`).
 
 ## References
 

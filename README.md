@@ -12,7 +12,7 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 
 ## Videos
 
-[Complete YouTube playlist of full series](https://dev.neo4j.com/bite_sized_playlist)
+### [Complete YouTube playlist of full series](https://dev.neo4j.com/bite_sized_playlist)
 
 [Part 1: Connect from Jupyter to a Neo4j Sandbox](https://dev.neo4j.com/bites_part1)
 

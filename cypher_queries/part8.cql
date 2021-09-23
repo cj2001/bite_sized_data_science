@@ -1,0 +1,1 @@
+CALL apoc.import.json("https://raw.githubusercontent.com/cj2001/bite_sized_data_science/main/data/kaggle.json")

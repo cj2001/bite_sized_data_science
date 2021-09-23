@@ -1,1 +1,1 @@
-CALL apoc.import.json("https://raw.githubusercontent.com/cj2001/bite_sized_data_science/main/data/kaggle.json")
+CALL apoc.import.json("https://raw.githubusercontent.com/cj2001/nodes2021_kg_workshop/main/json_files/wiki.json")

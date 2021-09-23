@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: September 17, 2021
+#### Last updated: September 23, 2021
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -33,8 +33,15 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
   - This video works from the command line using Docker.  The shell commands are provided in GitHub gists, which can be found [here](https://gist.github.com/cj2001/9321ff16672921e1c197b67336f97f19).
   - The data for this part can be found in `data/` (the files are `got-s1-nodes.csv` and `got-s1-edges.csv`).
 
+[Part 8: Populating the Database from a JSON file](https://dev.neo4j.com/bites_part8)
+  - This video references a JSON file I created for my NODES 2021 tutorial, "Creating a Knowledge Graph with Neo4j: A Simple Machine Learning Approach."
+    - [Repository for the workshop](https://dev.neo4j.com/nodes2021_kg_workshop): Contains the JSON file
+      - I have also put this file in the `data/` directory of this repository, but the Cypher query I used in the video (`cypher_queries/part8.cql`) uses the workshop repo.
+    - [Video of the workshop](https://dev.neo4j.com/kg_workshop)
+
 ## References
 
 - [The Neo4j Cheat Sheet and Quick Reference](https://dev.neo4j.com/neo4j_cheatsheet)
 - [Neo4j Cypher Reference Card](https://neo4j.com/docs/cypher-refcard/current/)
 - [Advanced Cypher Query Tuning (video)](https://youtu.be/xPSKqm4hFRc)
+- [Awesome Procedures on Cypher (APOC) User Guide](https://neo4j.com/labs/apoc/4.1/)

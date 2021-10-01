@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: September 23, 2021
+#### Last updated: October 1, 2021
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -38,6 +38,8 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
     - [Repository for the workshop](https://dev.neo4j.com/nodes2021_kg_workshop): Contains the JSON file
       - I have also put this file in the `data/` directory of this repository, but the Cypher query I used in the video (`cypher_queries/part8.cql`) uses the workshop repo.
     - [Video of the workshop](https://dev.neo4j.com/kg_workshop)
+
+[Part 9: Cypher Queries 2](https://dev.neo4j.com/bites_part9)
 
 ## References
 

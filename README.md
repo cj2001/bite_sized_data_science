@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: October 1, 2021
+#### Last updated: October 8, 2021
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -41,9 +41,11 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 
 [Part 9: Cypher Queries 2](https://dev.neo4j.com/bites_part9)
 
+[Part 10: Creating In-Memory Graphs with Cypher Projections](https://dev.neo4j.com/bites_part10)
 ## References
 
 - [The Neo4j Cheat Sheet and Quick Reference](https://dev.neo4j.com/neo4j_cheatsheet)
 - [Neo4j Cypher Reference Card](https://neo4j.com/docs/cypher-refcard/current/)
 - [Advanced Cypher Query Tuning (video)](https://youtu.be/xPSKqm4hFRc)
 - [Awesome Procedures on Cypher (APOC) User Guide](https://neo4j.com/labs/apoc/4.1/)
+- [Graph Data Science Library API Docs](https://dev.neo4j.com/graph_data_science)

@@ -29,8 +29,7 @@ RETURN nodes, relationships
 WITH 'PREFIX sch: <http://schema.org/> 
 CONSTRUCT{ ?item a sch:Brewery; 
             sch:name ?breweryName; 
-            sch:location ?location.  
-          	
+            sch:location ?location.            	
             ?location a sch:City; 
            	sch:name ?cityName  } 
 WHERE { ?item wdt:P31/wdt:P279* wd:Q131734 .

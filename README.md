@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: October 8, 2021
+#### Last updated: October 15, 2021
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -42,6 +42,12 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 [Part 9: Cypher Queries 2](https://dev.neo4j.com/bites_part9)
 
 [Part 10: Creating In-Memory Graphs with Cypher Projections](https://dev.neo4j.com/bites_part10)
+
+[Part 11: Import RDF Data from Wikidata](https://dev.neo4j.com/bites_part11)
+  - To query Wikidata, it is helpful to know how to use SPARQL.  The query builder that I showed (which has several great example queries) can be found [here](https://query.wikidata.org/).  Wikidata also provides a good [SPARQL tutorial](https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial).
+  - This video shows the use of Neosemantics for importing the RDF data.  See below in the References for docs on how to use it.
+  - This video also shows _very_ quickly demonstrates Neo4j Bloom for visualization and queries.  For an in-depth look at how to use Bloom, see [this video](https://dev.neo4j.com/3p6q7IP).
+
 ## References
 
 - [The Neo4j Cheat Sheet and Quick Reference](https://dev.neo4j.com/neo4j_cheatsheet)
@@ -49,3 +55,5 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 - [Advanced Cypher Query Tuning (video)](https://youtu.be/xPSKqm4hFRc)
 - [Awesome Procedures on Cypher (APOC) User Guide](https://neo4j.com/labs/apoc/4.1/)
 - [Graph Data Science Library API Docs](https://dev.neo4j.com/graph_data_science)
+- [Neosemantics Docs](https://neo4j.com/labs/neosemantics/)
+- [Bloom Docs](https://neo4j.com/docs/bloom-user-guide/current/)

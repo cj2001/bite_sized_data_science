@@ -48,6 +48,9 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
   - This video shows the use of Neosemantics for importing the RDF data.  See below in the References for docs on how to use it.
   - This video also shows _very_ quickly demonstrates Neo4j Bloom for visualization and queries.  For an in-depth look at how to use Bloom, see [this video](https://dev.neo4j.com/3p6q7IP).
 
+[Part 12: Creating In-Memory Graphs with Native Projections](https://dev.neo4j.com/bites_part12)
+  - This is the sister video for Part 10, which explored the other method for creating in-memory graphs.
+
 ## References
 
 - [The Neo4j Cheat Sheet and Quick Reference](https://dev.neo4j.com/neo4j_cheatsheet)

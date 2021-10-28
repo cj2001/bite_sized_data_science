@@ -12,6 +12,8 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 
 ## Videos
 
+### Find this video series as its [own webpage](https://neo4j.com/video/bite-sized-neo4j-for-data-scientists/) on the Neo4j webpage!!!
+
 ### [Complete YouTube playlist of full series](https://dev.neo4j.com/bite_sized_playlist)
 
 [Part 1: Connect from Jupyter to a Neo4j Sandbox](https://dev.neo4j.com/bites_part1)

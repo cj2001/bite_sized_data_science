@@ -51,6 +51,8 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 [Part 12: Creating In-Memory Graphs with Native Projections](https://dev.neo4j.com/bites_part12)
   - This is the sister video for Part 10, which explored the other method for creating in-memory graphs.
 
+[Part 13: Calculating Centrality](https://dev.neo4j.com/bites_part13)
+
 ## References
 
 - [The Neo4j Cheat Sheet and Quick Reference](https://dev.neo4j.com/neo4j_cheatsheet)

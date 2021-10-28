@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: October 15, 2021
+#### Last updated: October 28, 2021
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -11,6 +11,8 @@ Some videos are strictly based on Cypher querys, which can be found in `cypher/`
 The notebooks in this repository are not meant to be stand-alone and thus are not commented.  They go with the videos.  So you are encouraged to watch the videos and then consult the notebooks should you will to look at the actual code in depth.
 
 ## Videos
+
+### :sparkles: :sparkles: Find this video series as its [own webpage](https://neo4j.com/video/bite-sized-neo4j-for-data-scientists/) on the Neo4j webpage!!! :sparkles: :sparkles:
 
 ### [Complete YouTube playlist of full series](https://dev.neo4j.com/bite_sized_playlist)
 
@@ -50,6 +52,8 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 
 [Part 12: Creating In-Memory Graphs with Native Projections](https://dev.neo4j.com/bites_part12)
   - This is the sister video for Part 10, which explored the other method for creating in-memory graphs.
+
+[Part 13: Calculating Centrality](https://dev.neo4j.com/bites_part13)
 
 ## References
 

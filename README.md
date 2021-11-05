@@ -55,6 +55,9 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 
 [Part 13: Calculating Centrality](https://dev.neo4j.com/bites_part13)
 
+[Part 14: Community Detection with the Louvain Method](https://dev.neo4j.com/bites_part14)
+
+
 ## References
 
 - [The Neo4j Cheat Sheet and Quick Reference](https://dev.neo4j.com/neo4j_cheatsheet)

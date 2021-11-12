@@ -1,6 +1,5 @@
 // Load in nodes
-WITH "https://github.com/neo4j-graph-analytics/book/raw/master/data/" AS base
-WITH base + "sw_nodes.csv" AS uri
+WITH "https://raw.githubusercontent.com/neo4j-graph-analytics/book/master/data/sw-nodes.csv" AS uri
 LOAD CSV WITH HEADERS FROM uri AS row
 MERGE (:Library {id: row.id}) 
 

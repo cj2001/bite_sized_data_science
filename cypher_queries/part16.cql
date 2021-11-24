@@ -1,28 +1,25 @@
 // Create some nodes
+CREATE (n1:Node {id: 'n1'}),
+    (n2:Node {id: 'n2'}),
+    (n3:Node {id: 'n3'}),
+    (n4:Node {id: 'n4'}),
+    (n5:Node {id: 'n5'}),
+    (n6:Node {id: 'n6'}),
+    (n7:Node {id: 'n7'}),
 
-CREATE (n1:Node {id: 'n1'})
-CREATE (n2:Node {id: 'n2'})
-CREATE (n3:Node {id: 'n3'})
-CREATE (n4:Node {id: 'n4'})
-CREATE (n5:Node {id: 'n5'})
-CREATE (n6:Node {id: 'n6'})
-CREATE (n7:Node {id: 'n7'})
-
-// Create some relationships
-
-CREATE (n1)-[:CONNECTS]->(n2)
-CREATE (n2)-[:CONNECTS]->(n1)
-CREATE (n2)-[:CONNECTS]->(n3)
-CREATE (n3)-[:CONNECTS]->(n2)
-CREATE (n3)-[:CONNECTS]->(n1)
-CREATE (n1)-[:CONNECTS]->(n3)
-CREATE (n1)-[:CONNECTS]->(n4)
-CREATE (n4)-[:CONNECTS]->(n1)
-CREATE (n1)-[:CONNECTS]->(n5)
-CREATE (n5)-[:CONNECTS]->(n6)
-CREATE (n5)-[:CONNECTS]->(n7)
-CREATE (n6)-[:CONNECTS]->(n7)
-CREATE (n7)-[:CONNECTS]->(n6)
+    (n1)-[:CONNECTS]->(n2),
+    (n2)-[:CONNECTS]->(n1),
+    (n2)-[:CONNECTS]->(n3),
+    (n3)-[:CONNECTS]->(n2),
+    (n3)-[:CONNECTS]->(n1),
+    (n1)-[:CONNECTS]->(n3),
+    (n1)-[:CONNECTS]->(n4),
+    (n4)-[:CONNECTS]->(n1),
+    (n1)-[:CONNECTS]->(n5),
+    (n5)-[:CONNECTS]->(n6),
+    (n5)-[:CONNECTS]->(n7),
+    (n6)-[:CONNECTS]->(n7),
+    (n7)-[:CONNECTS]->(n6)
 
 // Look at the graph
 MATCH (n) RETURN n

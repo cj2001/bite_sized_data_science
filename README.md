@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: November 5, 2021
+#### Last updated: November 12, 2021
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -57,9 +57,12 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 
 [Part 14: Community Detection with the Louvain Method](https://dev.neo4j.com/bites_part14)
 
+[Part 15: Community Detection via Weakly Connected Components](https://dev.neo4j.com/bites_part15)
+
 
 ## References
 
+- [O'Reilly Graph Algorithm Examples in Apache Spark & Neo4j Book](https://dev.neo4j.com/graph_algorithms_book)
 - [The Neo4j Cheat Sheet and Quick Reference](https://dev.neo4j.com/neo4j_cheatsheet)
 - [Neo4j Cypher Reference Card](https://neo4j.com/docs/cypher-refcard/current/)
 - [Advanced Cypher Query Tuning (video)](https://youtu.be/xPSKqm4hFRc)

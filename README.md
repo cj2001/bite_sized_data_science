@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: November 24, 2021
+#### Last updated: December 3, 2021
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -60,6 +60,11 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 [Part 15: Community Detection via Weakly Connected Components](https://dev.neo4j.com/bites_part15)
 
 [Part 16: Using Strongly Connected Components to Detect Communities](https://dev.neo4j.com/bites_part16)
+
+[Part 17: Creating FastRP Graph Embeddings](https://dev.neo4j.com/bites_part17)
+  - For more information on how FastRP works, see the following blog posts:
+    - [Behind the scenes on the Fast Random Projection algorithm for generating graph embeddings](https://dev.neo4j.com/fastrp_background)
+    - [Making FastRP Graph Embeddings Work for You](https://dev.neo4j.com/frp_tuning)
 
 
 ## References

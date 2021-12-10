@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: December 3, 2021
+#### Last updated: December 10, 2021
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -65,6 +65,9 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
   - For more information on how FastRP works, see the following blog posts:
     - [Behind the scenes on the Fast Random Projection algorithm for generating graph embeddings](https://dev.neo4j.com/fastrp_background)
     - [Making FastRP Graph Embeddings Work for You](https://dev.neo4j.com/frp_tuning)
+
+[Part 18: Putting Graph Embeddings into a Machine Learning Model](https://dev.neo4j.com/bites_part18)
+  - This video moves quickly!  It will be important to read [this blog post](https://dev.neo4j.com/frp_tuning), particularly for understanding how to get the embeddings into a format for the machine learning model.
 
 
 ## References

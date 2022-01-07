@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: December 10, 2021
+#### Last updated: January 7, 2022
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -69,6 +69,11 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 [Part 18: Putting Graph Embeddings into a Machine Learning Model](https://dev.neo4j.com/bites_part18)
   - This video moves quickly!  It will be important to read [this blog post](https://dev.neo4j.com/frp_tuning), particularly for understanding how to get the embeddings into a format for the machine learning model.
 
+[Part 19: Starting with a SQL table...](https://dev.neo4j.com/bites_part19)
+  - This video is the start of a series looking at why we might want to go from SQL to a graph database
+  - It is based off of the graph data that can be found in [here](https://github.com/krlawrence/graph)
+  - I use PostgreSQL for my demonstrations, but you can use your SQL of choice
+  - All queries to populate your database are in `./sql_queries/part19`
 
 ## References
 

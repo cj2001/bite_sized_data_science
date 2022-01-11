@@ -1,7 +1,7 @@
 ////////////////////////////////////
 //
 // Bite-Sized Neo4j for Data Scientists
-// Part 19 query
+// Part 20 query
 //
 // This query sets up the airport route graph to be used in this example
 // and several subsequent examples to appear in future videos.

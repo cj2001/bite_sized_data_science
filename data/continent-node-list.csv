@@ -1,8 +1,8 @@
-~id,~label,type:string,code:string,icao:string,desc:string,region:string,runways:int,longest:int,elev:int,country:string,city:string,lat:double,lon:double,author:string,date:string
-3741,continent,continent,EU,,Europe,,,,,,,,,,
-3742,continent,continent,AF,,Africa,,,,,,,,,,
-3743,continent,continent,NA,,North America,,,,,,,,,,
-3744,continent,continent,SA,,South America,,,,,,,,,,
-3745,continent,continent,AS,,Asia,,,,,,,,,,
-3746,continent,continent,OC,,Oceania,,,,,,,,,,
-3747,continent,continent,AN,,Antarctica,,,,,,,,,,
+"code","descr"
+"EU","Europe"
+"OC","Oceania"
+"AS","Asia"
+"AN","Antarctica"
+"AF","Africa"
+"SA","South America"
+"NA","North America"

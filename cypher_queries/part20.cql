@@ -39,3 +39,14 @@ LOAD CSV WITH HEADERS FROM url AS row
 MERGE (c:Continent {code: row.code})
 SET c.descr = row.descr;
 
+// Create relationships from IATA codes (in iroutes-edges.csv)
+:auto USING PERIODIC COMMIT 500
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cj2001/bite_sized_data_science/main/data/iroutes-edges.csv'
+    AS row
+MATCH (source:Airport {iata: row.src})
+MATCH (target:Airport {iata: row.dest})
+MERGE (source)-[:HAS_ROUTE {distance: toInteger(row.dist)}]->(target);
+
+// The above only works on a blank GDS sandbox.  The normal ones times out.
+// Can the above be recreated with apoc.periodic.iterate?
+

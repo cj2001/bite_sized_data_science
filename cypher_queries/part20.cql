@@ -59,3 +59,8 @@ MERGE (a)-[:IN_CITY]->(c);
 MATCH (a:Airport)
 MERGE (r:Region {name: a.region})
 MERGE (a)-[:IN_REGION]->(r);
+
+// Create country relationships for airports
+MATCH (a:Airport)
+MATCH (c:Country {code: a.country})
+MERGE (a)-[:IN_COUNTRY]->(c);

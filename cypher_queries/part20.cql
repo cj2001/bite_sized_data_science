@@ -1,4 +1,14 @@
-// CREATE CONSTRAINT airports ON (a:Airport) ASSERT a.id IS UNIQUE;
+////////////////////////////////////
+//
+// Bite-Sized Neo4j for Data Scientists
+// Part 19 query
+//
+// This query sets up the airport route graph to be used in this example
+// and several subsequent examples to appear in future videos.
+//
+////////////////////////////////////
+
+// Create some constraints for query efficiency
 CREATE CONSTRAINT airports ON (a:Airport) assert a.iata IS UNIQUE;
 CREATE CONSTRAINT cities ON (c:City) ASSERT c.name IS UNIQUE;
 CREATE CONSTRAINT regions ON (r:Region) ASSERT r.name IS UNIQUE;

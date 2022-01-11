@@ -51,7 +51,6 @@ MERGE (c:Continent {code: row.code})
 SET c.descr = row.descr;
 
 // Create relationships from IATA codes (in iroutes-edges.csv)
-:auto USING PERIODIC COMMIT 500
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cj2001/bite_sized_data_science/main/data/iroutes-edges.csv' AS row
 MATCH (source:Airport {iata: row.src})
 MATCH (target:Airport {iata: row.dest})

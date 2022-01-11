@@ -50,3 +50,12 @@ MERGE (source)-[:HAS_ROUTE {distance: toInteger(row.dist)}]->(target);
 // The above only works on a blank GDS sandbox.  The normal ones times out.
 // Can the above be recreated with apoc.periodic.iterate?
 
+// Create city nodes and relationships
+MATCH (a:Airport)
+MERGE (c:City {name: a.city})
+MERGE (a)-[:IN_CITY]->(c);
+
+// Create region nodes and relationships
+MATCH (a:Airport)
+MERGE (r:Region {name: a.region})
+MERGE (a)-[:IN_REGION]->(r);

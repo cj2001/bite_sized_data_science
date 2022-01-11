@@ -64,3 +64,38 @@ MERGE (a)-[:IN_REGION]->(r);
 MATCH (a:Airport)
 MATCH (c:Country {code: a.country})
 MERGE (a)-[:IN_COUNTRY]->(c);
+
+// Create country relationships for cities
+MATCH (a:Airport)
+MATCH (ci:City {name: a.city})
+MATCH (co:Country {code: a.country})
+MERGE (ci)-[:IN_COUNTRY]->(co);
+
+// Create continent relationships for airports
+MATCH (a:Airport)
+MATCH (c:Continent {code: a.continent})
+MERGE (a)-[:ON_CONTINENT]->(c);
+
+// Create continent relationships for cities
+MATCH (a:Airport)
+MATCH (ci:City {name: a.city})
+MATCH (co:Continent {code: a.continent})
+MERGE (ci)-[:ON_CONTINENT]->(co);
+
+// Create continent relationships for regions
+MATCH (a:Airport)
+MATCH (r:Region {name: a.region})
+MATCH (co:Continent {code: a.continent})
+MERGE (r)-[:ON_CONTINENT]->(co);
+
+// Create continent relationships for countries
+MATCH (a:Airport)
+MATCH (c:Country {code: a.country})
+MATCH (co:Continent {code: a.continent})
+MERGE (c)-[:ON_CONTINENT]->(co);
+
+// Create country relationships for region
+MATCH (a:Airport)
+MATCH (r:Region {name: a.region})
+MATCH (co:Country {code: a.country})
+MERGE (r)-[:IN_COUNTRY]->(co);

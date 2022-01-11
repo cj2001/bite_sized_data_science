@@ -21,18 +21,18 @@ WITH
     AS url
 LOAD CSV WITH HEADERS FROM url AS row
 MERGE (a:Airport {iata: row.iata})
-SET a.id = row.id
+SET a.id = row.id,
     a.icao = row.icao,
     a.city = row.city,
     a.descr = row.descr,
     a.region = row.region,
-    a.runways = row.runways,
-    a.longest = row.longest,
-    a.altitude = row.altitude,
+    a.runways = toInteger(row.runways),
+    a.longest = toInteger(row.longest),
+    a.altitude = toInteger(row.altitude),
     a.country = row.country,
     a.continent = row.continent,
-    a.lat = row.lat,
-    a.lon = row.lon;
+    a.lat = toFloat(row.lat),
+    a.lon = toFloat(row.lon);
 
 // Load country nodes
 WITH 

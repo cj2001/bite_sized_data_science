@@ -20,8 +20,8 @@ WITH
     'https://raw.githubusercontent.com/cj2001/bite_sized_data_science/main/data/airport-node-list.csv'
     AS url
 LOAD CSV WITH HEADERS FROM url AS row
-MERGE (a:Airport {id: row.id})
-SET a.iata = row.iata,
+MERGE (a:Airport {iata: row.iata})
+SET a.id = row.id
     a.icao = row.icao,
     a.city = row.city,
     a.descr = row.descr,
@@ -56,7 +56,7 @@ LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cj2001/bite_sized_
 MATCH (source:Airport {iata: row.src})
 MATCH (target:Airport {iata: row.dest})
 MERGE (source)-[r:HAS_ROUTE]->(target)
-ON CREATE SET r.distance = toInteger(row.dist)
+ON CREATE SET r.distance = toInteger(row.dist);
 
 // Create city nodes and relationships
 MATCH (a:Airport)

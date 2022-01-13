@@ -26,7 +26,7 @@ ORDER BY
     dest
 ;
 
--- Count the number of airports within 2 connections of Denver, CO (DEN)
+-- Count the number of airports within exactly 2 connections of Denver, CO (DEN)
 WITH target AS (
     SELECT
         dest

@@ -107,6 +107,9 @@ MATCH (c:Country {code: a.country})
 MATCH (co:Continent {code: a.continent})
 MERGE (c)-[:ON_CONTINENT]->(co);
 
+// Confirm the schema looks correct
+CALL db.schema.visualization();
+
 ////////////////////////////////////
 //
 // We are now done populating the graph.

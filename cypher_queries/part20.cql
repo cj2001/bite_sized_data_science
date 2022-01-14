@@ -9,7 +9,7 @@
 ////////////////////////////////////
 
 // Create some constraints for query efficiency
-CREATE CONSTRAINT airports ON (a:Airport) assert a.iata IS UNIQUE;
+CREATE CONSTRAINT airports ON (a:Airport) ASSERT a.iata IS UNIQUE;
 CREATE CONSTRAINT cities ON (c:City) ASSERT c.name IS UNIQUE;
 CREATE CONSTRAINT regions ON (r:Region) ASSERT r.name IS UNIQUE;
 CREATE CONSTRAINT countries ON (c:Country) ASSERT c.code IS UNIQUE;

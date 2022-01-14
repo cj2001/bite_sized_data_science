@@ -109,19 +109,3 @@ MERGE (c)-[:ON_CONTINENT]->(co);
 
 // Confirm the schema looks correct
 CALL db.schema.visualization();
-
-////////////////////////////////////
-//
-// We are now done populating the graph.
-// Here are now the actual queries for getting
-// airports within 2 hops of Denver.
-//
-////////////////////////////////////
-
-// Find all airports within 2 hops of Denver
-MATCH (den:Airport {iata: 'DEN'})-[:HAS_ROUTE*1..2]->(a:Airport) 
-RETURN DISTINCT(a.city) AS city
-ORDER BY a.city
-
-// How many airports are within 2 hops of Denver?
-MATCH (den:Airport {iata: 'DEN'})-[:HAS_ROUTE*1..2]->(a:Airport) RETURN COUNT(DISTINCT a)

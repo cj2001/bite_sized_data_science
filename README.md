@@ -80,8 +80,6 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
   - To create the CSV files used for this graph, I exported each of the tables in Part 19 directly from Postgres via pgAdmin
     - I made some tweaks of the headers to get them into Neo4j via `LOAD CSV` easily
     - The data files can be found in `./data`
-  - Minor note on the SQL queries from Part 19 versus those here
-    - In Part 19 the query I used determined which airports were exactly 2 flights (hops) from DEN.  In this part I will consider the airports that are either 1 *OR* 2 hops from DEN.  You can see the corresponding SQL query in `./sql_queries/part20/one_or_two_hops.sql`
 
 ## References
 

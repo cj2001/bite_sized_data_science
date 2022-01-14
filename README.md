@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: January 7, 2022
+#### Last updated: January 14, 2022
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -74,6 +74,12 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
   - It is based off of the graph data that can be found in [here](https://github.com/krlawrence/graph)
   - I use PostgreSQL for my demonstrations, but you can use your SQL of choice
   - All queries to populate your database are in `./sql_queries/part19`
+
+[Part 20: ..And compare it to a graph... (2/n)](https://dev.neo4j.com/bites_part20)
+  - This video builds off of Part 19, using the same data imported into Neo4j
+  - To create the CSV files used for this graph, I exported each of the tables in Part 19 directly from Postgres via pgAdmin
+    - I made some tweaks of the headers to get them into Neo4j via `LOAD CSV` easily
+    - The data files can be found in `./data`
 
 ## References
 

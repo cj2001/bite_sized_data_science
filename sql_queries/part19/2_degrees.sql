@@ -2,7 +2,7 @@ SELECT * FROM airports LIMIT 1;
 
 SELECT * FROM iroutes LIMIT 5;
 
--- Find all of the airports within 2 connections of Denver, CO (DEN)
+-- Find all of the airports within exactly 2 connections of Denver, CO (DEN)
 WITH target AS (
     SELECT
         dest
@@ -26,7 +26,7 @@ ORDER BY
     dest
 ;
 
--- Count the number of airports within 2 connections of Denver, CO (DEN)
+-- Count the number of airports within exactly 2 connections of Denver, CO (DEN)
 WITH target AS (
     SELECT
         dest

@@ -75,7 +75,7 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
   - I use PostgreSQL for my demonstrations, but you can use your SQL of choice
   - All queries to populate your database are in `./sql_queries/part19`
 
-[Part 20: ..And compare it to a graph...](https://dev.neo4j.com/bites_part20)
+[Part 20: ..And compare it to a graph... (2/n)](https://dev.neo4j.com/bites_part20)
   - This video builds off of Part 19, using the same data imported into Neo4j
   - To create the CSV files used for this graph, I exported each of the tables in Part 19 directly from Postgres via pgAdmin
     - I made some tweaks of the headers to get them into Neo4j via `LOAD CSV` easily

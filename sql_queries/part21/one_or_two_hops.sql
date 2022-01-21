@@ -30,4 +30,8 @@ SELECT
 	DISTINCT(dest)
 FROM
 	both_hops
+WHERE
+	dest != 'DEN'
+ORDER BY
+	dest
 ;

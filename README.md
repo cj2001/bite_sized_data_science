@@ -81,7 +81,7 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
     - I made some tweaks of the headers to get them into Neo4j via `LOAD CSV` easily
     - The data files can be found in `./data`
 
-[Part 21: An example of why querying a graph can be easier than SQL (3/n)(https://dev.neo4j.com/bites_part21)](https://dev.neo4j.com/bites_part21)
+[Part 21: An example of when querying a graph can be easier than SQL (3/n)(https://dev.neo4j.com/bites_part21)](https://dev.neo4j.com/bites_part21)
   - This video builds off of Parts 19 and 20 of this series
   - If you do not already have a Neo4j database populated with this data, follow the instructions in Part 19 or run the script `./cypher_queries/part20.cql` to populate the database
 

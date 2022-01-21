@@ -4,4 +4,5 @@ CALL db.schema.visualization()
 // Find all airports within 2 hops of Denver (DEN)
 MATCH (den:Airport {iata: 'DEN'})-[:HAS_ROUTE*1..2]->(a:Airport) 
 WHERE a.iata <> 'DEN' 
-RETURN DISTINCT(a.city)
+RETURN DISTINCT(a.iata)
+ORDER BY a.iata

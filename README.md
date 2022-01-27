@@ -87,6 +87,7 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 
 [Part 22: A side-by-side calculation of degree using SQL and Neo4j (4/n)](https://dev.neo4j.com/bites_part22)
   - This video builds off of Parts 19-21 of this series
+  - If you do not already have a SQL database populated with this data, use the queries in `./sql_queries/part19/`
   - If you do not already have a Neo4j database populated with this data, follow the instructions in Part 20 or run the script `./cypher_queries/part20.cql` to populate the database
 
 ## References

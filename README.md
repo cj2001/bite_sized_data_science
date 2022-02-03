@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: January 21, 2022
+#### Last updated: February 3, 2022
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -89,6 +89,11 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
   - This video builds off of Parts 19-21 of this series
   - If you do not already have a SQL database populated with this data, use the queries in `./sql_queries/part19/`
   - If you do not already have a Neo4j database populated with this data, follow the instructions in Part 20 or run the script `./cypher_queries/part20.cql` to populate the database
+
+[Part 23: PageRank done two ways (5/n)](https://dev.neo4j.com/bites_part23)
+  - This video builds off of Parts 19-22 of this series
+  - We will be using a very simplistic graph for this demonstration
+  - The PageRank SQL query was taken from [this Stack Overflow post](https://stackoverflow.com/questions/17787944/sql-pagerank-implementation), which was originally written for T-SQL and has been modified in this repo to work in PostgreSQL
 
 ## References
 

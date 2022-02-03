@@ -1,3 +1,7 @@
+-- This query is based off of the T-SQL shown in Stack Overflow here:
+-- https://stackoverflow.com/questions/17787944/sql-pagerank-implementation
+-- It has been converted to PostgreSQL syntax.
+
 DROP TABLE node;
 DROP TABLE edge;
 DROP TABLE outdegree;

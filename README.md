@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: February 3, 2022
+#### Last updated: February 11, 2022
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -94,6 +94,10 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
   - This video builds off of Parts 19-22 of this series
   - We will be using a very simplistic graph for this demonstration
   - The PageRank SQL query was taken from [this Stack Overflow post](https://stackoverflow.com/questions/17787944/sql-pagerank-implementation), which was originally written for T-SQL and has been modified in this repo to work in PostgreSQL
+
+[Page 24: Why graphs? (6/6)](https://dev.neo4j.com/bites_part24)
+  - This video builds off of Parts 19-23 of this series
+  - This is the final video in the mini series-within-a-series for the SQL vs. Neo4j comparisons
 
 ## References
 

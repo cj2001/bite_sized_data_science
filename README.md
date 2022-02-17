@@ -99,6 +99,11 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
   - This video builds off of Parts 19-23 of this series
   - This is the final video in the mini series-within-a-series for the SQL vs. Neo4j comparisons
 
+[Part 25: Creating a graph for a Kaggle competition](https://dev.neo4j.com/bites_part25)
+  - This video is based off of the [H&M Personalized Fashion Recommendations Kaggle competition](https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/overview)
+  - The original data can be found and downloaded from the Kaggle public API via their CLI tool, assuming you have a Kaggle account
+    - For information on how to use the Kaggle public API, see [this article](https://www.kaggle.com/docs/api)
+
 ## References
 
 - [O'Reilly Graph Algorithm Examples in Apache Spark & Neo4j Book](https://dev.neo4j.com/graph_algorithms_book)

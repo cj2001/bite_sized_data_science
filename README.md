@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: February 17, 2022
+#### Last updated: February 25, 2022
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -103,6 +103,12 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
   - This video is based off of the [H&M Personalized Fashion Recommendations Kaggle competition](https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/overview)
   - The original data can be found and downloaded from the Kaggle public API via their CLI tool, assuming you have a Kaggle account
     - For information on how to use the Kaggle public API, see [this article](https://www.kaggle.com/docs/api)
+
+[Part 26: Creating a graph model of the Kaggle competition](https://dev.neo4j.com/bites_part26)
+  - This video is based off of Part 25, which uses the [H&M Personalized Fashion Recommendations Kaggle competition](https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/overview)
+  - There is no code used in this part
+  - If you would like to make an image of a graph model for yourself, check out [arrows.app](https://arrows.app/)
+
 
 ## References
 

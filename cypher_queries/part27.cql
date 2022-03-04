@@ -7,15 +7,6 @@ CALL gds.graph.create(
     }
 )
 
-// Create reverse-directed graph
-CALL gds.graph.create(
-    'purchases-rev',                     
-    ['Article', 'Customer'],                       
-    {                                         
-        PURCHASED: { properties: "price", orientation: "REVERSE" }   
-    }
-)
-
 // Node similarity of customers
 CALL gds.nodeSimilarity.stream('purchases',
 	{ 
@@ -36,6 +27,15 @@ MATCH (c:Customer)-->(a:Article)
 WHERE c.customer_id = "2452f252d9ddded26c848008d7af7cf9b92af4ea5c6284a0c5d9cd2567325e74"
 OR c.customer_id = "d396b64b7786922528517f3a6a7cf6fcdfe8b139e1cbb5ffd821f4ada741d3b9"
 RETURN c, a
+
+// Create reverse-directed graph
+CALL gds.graph.create(
+    'purchases-rev',                     
+    ['Article', 'Customer'],                       
+    {                                         
+        PURCHASED: { properties: "price", orientation: "REVERSE" }   
+    }
+)
 
 // Node similarity of articles
 CALL gds.nodeSimilarity.stream('purchases-rev',

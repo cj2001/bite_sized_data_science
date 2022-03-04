@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: February 25, 2022
+#### Last updated: March 4, 2022
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -104,10 +104,14 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
   - The original data can be found and downloaded from the Kaggle public API via their CLI tool, assuming you have a Kaggle account
     - For information on how to use the Kaggle public API, see [this article](https://www.kaggle.com/docs/api)
 
-[Part 26: Creating a graph model of the Kaggle competition](https://dev.neo4j.com/bites_part26)
+[Part 26: Creating a graph model of the Kaggle competition (2/n)](https://dev.neo4j.com/bites_part26)
   - This video is based off of Part 25, which uses the [H&M Personalized Fashion Recommendations Kaggle competition](https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/overview)
   - There is no code used in this part
   - If you would like to make an image of a graph model for yourself, check out [arrows.app](https://arrows.app/)
+
+[Part 27: Node similarity of Kaggle competition graph (3/n)](https://dev.neo4j.com/bites_part27)
+  - This video is based off of Parts 25 and 26, which uses the [H&M Personalized Fashion Recommendations Kaggle competition](https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/overview)
+  - If you need a refresher on how to create an in-memory graph projection as is done in this video, please consult [Part 12](https://dev.neo4j.com/bites_part12)
 
 
 ## References

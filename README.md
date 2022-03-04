@@ -109,7 +109,7 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
   - There is no code used in this part
   - If you would like to make an image of a graph model for yourself, check out [arrows.app](https://arrows.app/)
 
-[Part 27: Customer and article similarity of Kaggle competition graph (3/n)](https://dev.neo4j.com/bites_part27)
+[Part 27: Node similarity of Kaggle competition graph (3/n)](https://dev.neo4j.com/bites_part27)
   - This video is based off of Parts 25 and 26, which uses the [H&M Personalized Fashion Recommendations Kaggle competition](https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/overview)
   - If you need a refresher on how to create an in-memory graph projection as is done in this video, please consult [Part 12](https://dev.neo4j.com/bites_part12)
 

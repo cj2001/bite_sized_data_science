@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: March 4, 2022
+#### Last updated: March 10, 2022
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -112,6 +112,12 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 [Part 27: Node similarity of Kaggle competition graph (3/n)](https://dev.neo4j.com/bites_part27)
   - This video is based off of Parts 25 and 26, which uses the [H&M Personalized Fashion Recommendations Kaggle competition](https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/overview)
   - If you need a refresher on how to create an in-memory graph projection as is done in this video, please consult [Part 12](https://dev.neo4j.com/bites_part12)
+
+[Part 28: Using KNN to identify similar items of Kaggle competition graph (4/n)](https://dev.neo4j.com/bites_part28)
+  - This video is based off of Parts 25-27
+  - If you need a refresher on how to create an in-memory graph projection as is done in this video, please consult [Part 12](https://dev.neo4j.com/bites_part12)
+  - In this video we will do some very basic feature engineering to explore the [K-Nearest Neighbors](https://neo4j.com/docs/graph-data-science/current/algorithms/knn/) for each article of clothing to obtain similar articles
+  - (The next video will also do KNN, but using some much more sophisticated features!)
 
 
 ## References

@@ -2,7 +2,7 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: March 10, 2022
+#### Last updated: March 18, 2022
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
@@ -121,7 +121,7 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 
 [Part 29: Using KNN with more sophisticated feature vectors (5/n)](https://dev.neo4j.com/bites_part29)
   - This video is based off of Parts 25-28
-  
+
 ## References
 
 - [O'Reilly Graph Algorithm Examples in Apache Spark & Neo4j Book](https://dev.neo4j.com/graph_algorithms_book)

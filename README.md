@@ -119,7 +119,9 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
   - In this video we will do some very basic feature engineering to explore the [K-Nearest Neighbors](https://neo4j.com/docs/graph-data-science/current/algorithms/knn/) for each article of clothing to obtain similar articles
   - (The next video will also do KNN, but using some much more sophisticated features!)
 
-
+[Part 29: Using KNN with more sophisticated feature vectors (5/n)](https://dev.neo4j.com/bites_part29)
+  - This video is based off of Parts 25-28
+  
 ## References
 
 - [O'Reilly Graph Algorithm Examples in Apache Spark & Neo4j Book](https://dev.neo4j.com/graph_algorithms_book)

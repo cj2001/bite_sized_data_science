@@ -2,10 +2,14 @@
 ### Written by: Dr. Clair J. Sullivan, Data Science Advocate, Neo4j
 #### email: clair.sullivan@neo4j.com
 #### Twitter: @CJLovesData1
-#### Last updated: March 21, 2022
+#### Last updated: April 13, 2022
 
 All notebooks can be found in `notebooks/`.
 Some videos are strictly based on Cypher querys, which can be found in `cypher/`.
+
+## THIS SERIES IS ON HIATUS FOR A WHILE!!!
+
+Stay tuned to the Neo4j YouTube channel for new episodes coming soon!
 
 ### Note:
 The notebooks in this repository are not meant to be stand-alone and thus are not commented.  They go with the videos.  So you are encouraged to watch the videos and then consult the notebooks should you will to look at the actual code in depth.
@@ -121,6 +125,9 @@ The notebooks in this repository are not meant to be stand-alone and thus are no
 
 [Part 29: Using KNN with more sophisticated feature vectors (5/n)](https://dev.neo4j.com/bites_part29)
   - This video is based off of Parts 25-28
+
+[Part 30: Introducing GDS 2.0!](https://dev.neo4j.com/bites_part30)
+  - This video just scrapes the surface of all of the new offerings within GDS 2.0, but focuses on the new [GDS Python Client](https://dev.neo4j.com/python_gds)
 
 ## References
 

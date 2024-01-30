@@ -11,12 +11,12 @@ Some videos are strictly based on Cypher querys, which can be found in `cypher/`
 
 The content developed in this series was done using Neo4j v4.  However, in 2023 Neo4j v5 was released.  This version has some [breaking changes](https://neo4j.com/docs/upgrade-migration-guide/current/version-5/migration/breaking-changes/) that 
 require adjustments to several of the queries herein.  You can read more about those changes in the [Cypher Manual - Removals, deprecations, additions, and extensions](https://neo4j.com/docs/cypher-manual/5/deprecations-additions-removals-compatibility/)
-as well as [this blog post](https://towardsdatascience.com/how-cypher-changed-in-neo4j-v5-d0f10cbb60bf#:~:text=Summary,you%20with%20the%20upgrade%20process.)
+as well as [this blog post](https://towardsdatascience.com/how-cypher-changed-in-neo4j-v5-d0f10cbb60bf#:~:text=Summary,you%20with%20the%20upgrade%20process.).
 
 Additionally, there are places in this series where we use the `py2neo` Python driver.  There were "changes" that this driver went through in the fall of 2023 and I have not had the opportunity to go through this code to see if any of them
 break what is in here.  Just a head's up.
 
-**If you find anything here that broke, please feel free to create an issue or, better yet, open a PR!!!***
+**If you find anything here that broke, please feel free to create an issue or, better yet, open a PR!!!**
 
 ## THIS SERIES IS ON HIATUS FOR A WHILE!!!
 
